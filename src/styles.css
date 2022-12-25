@@ -43,6 +43,11 @@ li {
     text-decoration: none;
 }
 
+li a:hover {
+    color: black;
+    background-color: whitesmoke;
+}
+
 h1 {
     font-size: 90px;
     margin: 0;
@@ -118,6 +123,10 @@ h3 {
     margin: 20px;
 }
 
+.social:hover {
+    opacity: 65%;
+}
+
 .sub-section {
     display: flex;
     justify-content: space-around;
@@ -179,10 +188,13 @@ hr {
     color: #ef744b;
 }
 
+.project-link:hover {
+    text-decoration: underline #ef744b;
+}
+
 a {
     text-decoration: none;
     color: white;
-
 }
 
 .hamburger {
@@ -228,10 +240,4 @@ a {
 
 form {
     margin: 0 5px 0 0;
-}
-
-.input-section {
-    margin: 0 5px 0 0;
-    display: flex;
-    flex-direction: column;
 }
