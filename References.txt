@@ -11,3 +11,30 @@ https://www.remove.bg/
 https://iconmonstr.com/ (SVG Icons)
 
 Font Awesome (hamburger)
+https://cdnjs.com/libraries/font-awesome
+
+https://www.youtube.com/watch?v=Xm4BObh4MhI
+
+https://naledi.co.uk/
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea
+
+https://blog.hubspot.com/marketing/html-form-email
+
+JotForm (Contact Me)
+
+https://www.youtube.com/watch?v=1T7ExqKejFg
+
+https://www.youtube.com/watch?v=BKKcGb80MOs
+
+SwiperJS
+https://codesandbox.io/s/v6tqbh?file=/index.html:262-368
+https://swiperjs.com/demos#infinite-loop
+
+https://fontawesome.com/icons/arrow-left
+https://fontawesome.com/icons/arrow-right?s=solid&f=classic
+
+https://www.w3schools.com/w3css/w3css_slideshow.asp
+https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_dots
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
