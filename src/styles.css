@@ -215,7 +215,11 @@ a {
     outline: 0;
 }
 
-
+.education-container {
+    display: grid;
+    /* justify-content: space-around; */
+    grid-template-columns: 20% 80%;
+}
 
 
 @media only screen and (max-width: 1000px) {
