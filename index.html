@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles.css"></link>
     <link rel="icon" href="src/images/Logo_2.png" type="image/icon">
     
@@ -17,28 +17,35 @@
     
     <title>Kunal Jeshang Portfolio</title>
 </head>
+<!-- NEW WEBSITE ************* -->
 <body>
-    <!-- HERO SECTION -->
-    <section class="hero">
-        <nav>
-            <!-- <div>LOGO</div> -->
-            <img class="logo" src="src/images/Logo_2-removebg.png" alt="Kunal Jeshang's Logo"></img>
-            <ul id="nav-list">
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact-me">Contact</a></li>
-            </ul>
-            <button class="hamburger" id="hamburger">
-                <i class="fa fa-bars"></i>
-            </button>
-        </nav>
-        <div class="hero-area">
-            <div class="hero-text">
-                <h1>Kunal Jeshang</h1>
-                <p>Data Analyst & Business Intelligence Developer</p>
-                <div class="button"><a href="#about-me">About Me</a></div>
+    <nav>
+        <img src="src/images/Logo_2-removebg.png" alt="Kunal's Logo"/>
+        <ul id="nav-list">
+            <li>
+                <a>About</a>
+            </li>
+            <li>
+                <a>Projects</a>
+            </li>
+            <li>
+                <a>Contact</a>
+            </li>
+        </ul>
+        <button class="hamburger" id="hamburger">
+            <i class="fa fa-bars"></i>
+        </button>
+    </nav>
+    <main>
+        <section class="hero">
+            <div class="hero-info">
+                <div class="hero-title">
+                    <h1>Kunal Ajaykumar Jeshang</h1>
+                    <p>Data Analyst & Business Intelligence Developer</p>
+                </div>
+                <div class="button">About Me</div>
             </div>
-            <div class="socials">
+            <div class="hero-socials">
                 <div class="social">
                     <a href="https://www.linkedin.com/in/kunaljeshang/">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
@@ -55,137 +62,219 @@
                     </a>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- ABOUT ME SECTION -->
-    <section class="sub-section" id="about-me">
-        <div class="information">
-            <h2>About Me</h2>
-            <p>A Dynamic business professional with more than 3 years of work experience across various industries and roles, including 1.5+ years of experience in technical roles. In-depth knowledge of business statistics, software development methodologies, machine learning, natural language processing, and technical writing & documentation. Skilled in programming to perform data cleaning, data mining & wrangling, and data visualization for both structured & unstructured data. Exceptional leadership, customer service, and interpersonal communication skills, with a strong sense of cultural awareness and inclusivity. Passionate about solving complex business problems using data-driven solutions with critical thinking, creativity, and the application of technology.</p>
-        </div>
-        <div class="headshot-container">
-            <img class="headshot" src="src/images/1541430758243.jpeg" alt="Kunal Jeshang Headshot"/>
-        </div>
-    </section>
-    <!-- PROJECTS SECTION -->
-    <section class="sub-section-alternative" id="projects">
-        <h2>Projects</h2>
-        <div class="project-container">
-            <div class="project-card">
-                <img class="project-image" src="src/images/Project_MyFrenchLearning.jpg" alt="My French Learning Blog Website - Image"/>
-                <h3>My French Learning Blog Website</h3>
-                <p class="subtext">A web application that acts as a frontend to track my french language learning journey. The frontend retrieves the actual blog posts from a separate GitHub Repository that serves as a static-external backend, and then displays it.</p>
-                <hr />
-                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/my-french-learning-blog">View Here</a></p>
+        </section>
+        <section class="about">
+            <div class="about-info"> 
+                <h2>About Me</h2>
+                <p>A Dynamic business professional with more than 3 years of work experience across various industries and roles, including 1.5+ years of experience in technical roles. In-depth knowledge of business statistics, software development methodologies, machine learning, natural language processing, and technical writing & documentation. Skilled in programming to perform data cleaning, data mining & wrangling, and data visualization for both structured & unstructured data. Exceptional leadership, customer service, and interpersonal communication skills, with a strong sense of cultural awareness and inclusivity. Passionate about solving complex business problems using data-driven solutions with critical thinking, creativity, and the application of technology.</p>
             </div>
-            <div class="project-card">
-                <img class="project-image" src="src/images/Project_MavenAnalytics.jpg" alt="Maven Analytics Data Projects Website - Image"/>
-                <h3>Maven Analytics Data Projects Website</h3>
-                <p class="subtext">A web application that acts as a frontend/portfolio to showcase the various projects completed <em><u>so far</u></em> in the Maven Analytics Data Playground Project.</p>
-                <!-- <p class="subtext"><strong><em>IN PROGRESS</em></strong></p> -->
-                <hr />
-                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/kunal-maven-analytics-data-projects">View Here</a></p>
+            <div class="about-headshot">
+                <img src="src/images/1541430758243.jpeg" alt="Kunal Jeshang Headshot"/>
             </div>
-            <div class="project-card">
-                <img class="project-image" src="src/images/Project_MavenAnalytics.jpg" alt="Maven Analytics Data Playground - Image"/>
-                <h3>Maven Analytics Data Playground Project</h3>
-                <!-- <p class="subtext">A <em><u>growing</u></em> collection of projects involving data analysis & visualization regarding free datasets provided by Maven Analytics.</p> -->
-                <p class="subtext">A <em><u>growing</u></em> collection of completed projects regarding free datasets provided by Maven Analytics that involve data cleaning, analysis, and visualization.</p>
-                <!-- <br>
-                <p class="subtext"><strong><em>IN PROGRESS</em></strong></p> -->
-                <hr />
-                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/KunalMavenAnalyticsDataPlayground">View Here</a></p>
+        </section>
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="projects-list">
+                <!-- Portfolio Website Application -->
+                <div class="projects-card">
+                    <div class="projects-image">
+                        <img src="src/images/Logo_2.png" alt="Porfolio Website Application - Image"/>
+                    </div>
+                    <h3>Portfolio Web Application</h3>
+                    <p>This is an updated version of my current portfolio website (i.e., the website you see before you). It is a multi-component single page application created with the help of the Angular framework, and packages such as Angular Material, SignalStore, Lodash, Plotly, and Luxon.</p>
+                    <div class="projects-link">
+                        <hr />
+                        <p><a href="https://github.com/kjeshang/kunal-portfolio">View Here</a></p>
+                    </div>
+                </div>
+                <!-- My French Learning Blog -->
+                <div class="projects-card">
+                    <div class="projects-image">
+                        <img src="src/images/Project_MyFrenchLearning.jpg" alt="My French Learning Blog Website - Image"/>
+                    </div>
+                    <h3>My French Learning Blog Website</h3>
+                    <p>A web application that acts as a frontend to track my french language learning journey. The frontend retrieves the actual blog posts from a separate GitHub Repository that serves as a static-external backend, and then displays it.</p>
+                    <div class="projects-link">
+                        <hr />
+                        <p><a href="https://github.com/kjeshang/my-french-learning-blog">View Here</a></p>
+                    </div>
+                </div>
+                <!-- Maven Analytics Data Projects Website -->
+                <div class="projects-card">
+                    <div class="projects-image">
+                        <img src="src/images/Project_MavenAnalytics.jpg" alt="Maven Analytics Data Projects Website - Image"/>
+                    </div>
+                    <h3>Maven Analytics Data Projects Website</h3>
+                    <p>A web application that acts as a frontend/portfolio to showcase the various projects completed <em><u>so far</u></em> in the Maven Analytics Data Playground Project.</p>
+                    <div class="projects-link">
+                        <hr />
+                        <p><a href="https://github.com/kjeshang/kunal-maven-analytics-data-projects">View Here</a></p>
+                    </div>
+                </div>
+                <!-- Mavan Analytics Data Playground -->
+                <div class="projects-card">
+                    <div class="projects-image">
+                        <img src="src/images/Project_MavenAnalytics.jpg" alt="Maven Analytics Data Playground - Image"/>
+                    </div>
+                    <h3>Maven Analytics Data Playground Project</h3>
+                    <p>A <em><u>growing</u></em> collection of completed projects regarding free datasets provided by Maven Analytics that involve data cleaning, analysis, and visualization.</p>
+                    <div class="projects-link">
+                        <hr />
+                        <p><a href="https://github.com/kjeshang/KunalMavenAnalyticsDataPlayground">View Here</a></p>
+                    </div>
+                </div>
+                <!-- Nespresso Metropolis Training Matrix Summarization -->
+                <div class="projects-card">
+                    <div class="projects-image">
+                        <img src="src/images/Project_Nespresso.jpeg" alt="Nespresso Metropolis Training Matrix Summarization - Image"/>
+                    </div>
+                    <h3>Nespresso Metropolis Training Matrix Summarization</h3>
+                    <p>A project that extracts text from an expansive Quality, Health & Safety, and Sustainability Employee Memo, and then summarizes & evaluates the text using Machine Learning techniques.</p>
+                    <div class="projects-link">
+                        <hr/>
+                        <p><a href="https://github.com/kjeshang/NespressoMetropolisTrainingMatrixSummarization">View Here</a></p>
+                    </div>
+                </div>
+                <!-- Nespresso Metropolis Cash Journal Reconciliation -->
+                <div class="projects-card">
+                    <div class="projects-image">
+                        <img  src="src/images/Project_Nespresso.jpeg" alt="Nespresso Metropolis Cash Journal Reconciliation - Image"/>
+                    </div>
+                    <h3>Nespresso Metropolis Cash Journal Reconciliation</h3>
+                    <p>A web application designed to assist managers to quickly perform opening & closing cash journal reconciliations for both credit/debit and cash transactions.</p>
+                    <div class="projects-link">
+                        <hr/>
+                        <p><a href="https://github.com/kjeshang/NespressoMetropolisCashJournalReconciliation.git">View Here</a></p>
+                    </div>
+                </div>
+                <!-- Nespresso Metropolis Coffee Flavour Reference Guide -->
+                <div class="projects-card">
+                    <div class="projects-image">
+                        <img src="src/images/Project_Nespresso.jpeg" alt="Nespresso Metropolis Cash Journal Reconciliation - Image"/>
+                    </div>
+                    <h3>Nespresso Metropolis Coffee Flavour Reference Guide</h3>
+                    <p>Programmatically generated reference guides that were designed to help sales floor employees convey high level knowledge to customers with speed & detail.</p>
+                    <div class="projects-link">
+                        <hr/>
+                        <p><a href="https://github.com/kjeshang/NespressoMetropolisCoffeeFlavourReferenceGuide">View Here</a></p>
+                    </div>
+                </div>
+                <!-- Staples Marine Way Associate Companion Mobile App -->
+                <div class="projects-card">
+                    <div class="projects-image">
+                        <img src="src/images/Project_StaplesCanada.png" alt="Staples Marine Way Associate Companion Mobile App - Image"/>
+                    </div>
+                    <h3>Staples Marine Way Associate Companion Mobile App</h3>
+                    <p>An application designed to assist associates to better understand product lineup, as well as to serve as a referential tool to help connect, share, and partner with customers to meet their requirements.</p>
+                    <div class="projects-link">
+                        <hr/>
+                        <p><a href="https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp">View Here</a></p>
+                    </div>
+                </div>
+                <!-- Nespresso Metropolis Customer Review Analysis -->
+                <div class="projects-card">
+                    <div class="projects-image">
+                        <img src="src/images/Project_Nespresso.jpeg" alt="Nespresso Metropolis Customer Review Analysis - Image"/>
+                    </div>
+                    <h3>Nespresso Metropolis Customer Review Analysis</h3>
+                    <p>An exploratory sentiment analysis of customer Google Reviews,  received between 2019 to 2022, to assess service quality & customer perception to help management pinpoint areas for improvement.</p>
+                    <div class="projects-link">
+                        <hr/>
+                        <p><a href="https://github.com/kjeshang/NespressoMetropolisCustomerReviewAnalysis">View Here</a></p>
+                    </div>
+                </div>
+                <!-- Legacy Portfolio Website -->
+                <div class="projects-card">
+                    <div class="projects-image">
+                        <img src="src/images/Logo_2.png" alt="Legacy Portfolio Website - Image"/>
+                    </div>
+                    <h3>Legacy Portfolio Website</h3>
+                    <p>The current portfolio website, which utilizes basic web development fundamentals such as HTML, CSS, and Javascript.</p>
+                    <div class="projects-link">
+                        <hr/>
+                        <p><a href="https://github.com/kjeshang/kjeshang.github.io">View Here</a></p>
+                    </div>
+                </div>
+                <!-- Nespresso Metropolis Training App -->
+                <div class="projects-card">
+                    <div class="projects-image">
+                        <img src="src/images/Project_Nespresso.jpeg" alt="Nespresso Metropolis Training App - Image"/>
+                    </div>
+                    <h3>Nespresso Metropolis Training App</h3>
+                    <p>A Machine Learning & Natural Language Processing Application designed to both educate about coffee flavour profiles and make recommendations.</p>
+                    <div class="projects-link">
+                        <hr/>
+                        <p><a href="https://github.com/kjeshang/NespressoMetropolisTrainingApp">View Here</a></p>
+                    </div>
+                </div>
+                <!-- Zyp Art Gallery Social Media Dashboard Application -->
+                <div class="projects-card">
+                    <div class="projects-image">
+                        <img src="src/images/Project_ZypArtGallery.jpeg" alt="Zyp Art Gallery Social Media Dashboard - Image"/>
+                    </div>
+                    <h3>Zyp Art Gallery Social Media Dashboard Application</h3>
+                    <p>A free and accessible web application designed to serve as a custom dashboard tool to help visualize Facebook & Instagram data and derive social media insights.</p>
+                    <div class="projects-link">
+                        <hr/>
+                        <p><a href="https://github.com/kjeshang/ZypArtGallerySocialMediaDashboard">View Here</a></p>
+                    </div>
+                </div>
+                <!-- Zyp Art Gallery Volunteer Connector Web Scraping -->
+                <div class="projects-card">
+                    <div class="projects-image">
+                        <img src="src/images/Project_ZypArtGallery.jpeg" alt="Zyp Art Gallery Volunteer Connector Web Scraping - Image"/>
+                    </div>
+                    <h3>Zyp Art Gallery Volunteer Connector Web Scraping</h3>
+                    <p>A custom web scraper designed to retreive volunteer interest data per month, and both open and completed volunteer application data on a lifetime basis from the Volunteer Connector portal.</p>
+                    <div class="projects-link">
+                        <hr/>
+                        <p><a href="https://github.com/kjeshang/ZypArtGallery-VolunteerConnectorWebScraping">View Here</a></p>
+                    </div>
+                </div>
+                <!-- CEIT SHS 2021 Statistics Exploratory Data Analysis -->
+                <div class="projects-card">
+                    <div class="projects-image">
+                        <img src="src/images/Project_CEITDouglasCollege.jpeg" alt="CEIT SHS 2021 Statistics Exploratory Data Analysis - Image"/>
+                    </div>
+                    <h3>CEIT SHS 2021 Statistics Exploratory Data Analysis</h3>
+                    <p>An exploratory data analysis of the Students Helping Students 2021 statistics data pertaining to educational technology issues of Douglas College students.</p>
+                    <div class="projects-link">
+                        <hr/>
+                        <p><a href="https://github.com/kjeshang/SHS2021_Statistics-DataAnalysis-Winter2022Co-op">View Here</a></p>
+                    </div>
+                </div>
+                <!-- Zyp Art Gallery Social Media Data Extraction -->
+                <div class="projects-card">
+                    <div class="projects-image">
+                        <img src="src/images/Project_ZypArtGallery.jpeg" alt="Zyp Art Gallery Social Media Data Extraction - Image"/>
+                    </div>
+                    <h3>Zyp Art Gallery Social Media Data Extraction</h3>
+                    <p>A collection of scripts that can programmatically extract, transform, and load unaggregated Facebook & Instagram data to both CSV and Google Sheets files using Facebook Graph API and Google Sheets API.</p>
+                    <div class="projects-link">
+                        <hr/>
+                        <p><a href="https://github.com/kjeshang/ZypArtGallery-SocialMediaDataExtraction">View Here</a></p>
+                    </div>
+                </div>
+                <!-- Cultural Spaces in Vancouver Dashboard -->
+                <div class="projects-card">
+                    <div class="projects-image">
+                        <img src="src/images/Project_CulturalSpacesVancouver.jpeg" alt="Cultural Spaces in Vancouver Dashboard - Image"/>
+                    </div>
+                    <h3>Cultural Spaces in Vancouver Dashboard</h3>
+                    <p>A dashboard showing the locations of Cultural Places in Vancouver along with visualizations that differentiate locations based on both comparison and size parameters.</p>
+                    <div class="projects-link">
+                        <hr/>
+                        <p><a href="https://kunaljeshang.wordpress.com/douglas-college/csis-3860-data-visualization/?preview_id=789&preview_nonce=8d7b45596e&preview=true">View Here</a></p>
+                    </div>
+                </div>
             </div>
-            <div class="project-card">
-                <img class="project-image" src="src/images/Project_Nespresso.jpeg" alt="Nespresso Metropolis Training Matrix Summarization - Image"/>
-                <h3>Nespresso Metropolis Training Matrix Summarization</h3>
-                <p class="subtext">A project that extracts text from an expansive Quality, Health & Safety, and Sustainability Employee Memo, and then summarizes & evaluates the text using Machine Learning techniques.</p>
-                <hr/>
-                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/NespressoMetropolisTrainingMatrixSummarization">View Here</a></p>
-            </div>
-            <div class="project-card">
-                <img class="project-image" src="src/images/Project_Nespresso.jpeg" alt="Nespresso Metropolis Cash Journal Reconciliation - Image"/>
-                <h3>Nespresso Metropolis Cash Journal Reconciliation</h3>
-                <p class="subtext">A web application designed to assist managers to quickly perform opening & closing cash journal reconciliations for both credit/debit and cash transactions.</p>
-                <hr/>
-                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/NespressoMetropolisCashJournalReconciliation.git">View Here</a></p>
-            </div>
-            <div class="project-card">
-                <img class="project-image" src="src/images/Project_Nespresso.jpeg" alt="Nespresso Metropolis Coffee Flavour Reference Guide - Image"/>
-                <h3>Nespresso Metropolis Coffee Flavour Reference Guide</h3>
-                <p class="subtext">Programmatically generated reference guides that were designed to help sales floor employees convey high level knowledge to customers with speed & detail.</p>
-                <hr/>
-                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/NespressoMetropolisCoffeeFlavourReferenceGuide">View Here</a></p>
-            </div>
-            <div class="project-card">
-                <img class="project-image" src="src/images/Project_StaplesCanada.png" alt="Staples Marine Way Associate Companion Mobile App - Image"/>
-                <h3>Staples Marine Way Associate Companion Mobile App</h3>
-                <p class="subtext">An application designed to assist associates to better understand product lineup, as well as to serve as a referential tool to help connect, share, and partner with customers to meet their requirements.</p>
-                <hr/>
-                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp">View Here</a></p>
-            </div>
-            <div class="project-card">
-                <img class="project-image" src="src/images/Project_Nespresso.jpeg" alt="Nespresso Metropolis Customer Review Analysis - Image"/>
-                <h3>Nespresso Metropolis Customer Review Analysis</h3>
-                <p class="subtext">An exploratory sentiment analysis of customer Google Reviews,  received between 2019 to 2022, to assess service quality & customer perception to help management pinpoint areas for improvement.</p>
-                <hr/>
-                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/NespressoMetropolisCustomerReviewAnalysis">View Here</a></p>
-            </div>
-            <div class="project-card">
-                <img class="project-image" src="src/images/Project_Nespresso.jpeg" alt="Nespresso Metropolis Training App - Image"/>
-                <h3>Nespresso Metropolis Training App</h3>
-                <p class="subtext">A Machine Learning & Natural Language Processing Application designed to both educate about coffee flavour profiles and make recommendations.</p>
-                <hr/>
-                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/NespressoMetropolisTrainingApp">View Here</a></p>
-            </div>
-            <div class="project-card">
-                <img class="project-image" src="src/images/Project_ZypArtGallery.jpeg" alt="Zyp Art Gallery Social Media Dashboard - Image"/>
-                <h3>Zyp Art Gallery Social Media Dashboard Application</h3>
-                <p class="subtext">A free and accessible web application designed to serve as a custom dashboard tool to help visualize Facebook & Instagram data and derive social media insights.</p>
-                <hr/>
-                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/ZypArtGallerySocialMediaDashboard">View Here</a></p>
-            </div>
-            
-            <div class="project-card">
-                <img class="project-image" src="src/images/Project_ZypArtGallery.jpeg" alt="Zyp Art Gallery Volunteer Connector Web Scraping - Image"/>
-                <h3>Zyp Art Gallery Volunteer Connector Web Scraping</h3>
-                <p class="subtext">A custom web scraper designed to retreive volunteer interest data per month, and both open and completed volunteer application data on a lifetime basis from the Volunteer Connector portal.</p>
-                <hr/>
-                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/ZypArtGallery-VolunteerConnectorWebScraping">View Here</a></p>
-            </div>
-            <div class="project-card">
-                <img class="project-image" src="src/images/Project_CEITDouglasCollege.jpeg" alt="CEIT SHS 2021 Statistics Exploratory Data Analysis - Image"/>
-                <h3>CEIT SHS 2021 Statistics Exploratory Data Analysis</h3>
-                <p class="subtext">An exploratory data analysis of the Students Helping Students 2021 statistics data pertaining to educational technology issues of Douglas College students.</p>
-                <hr/>
-                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/SHS2021_Statistics-DataAnalysis-Winter2022Co-op">View Here</a></p>
-            </div>
-            <div class="project-card">
-                <img class="project-image" src="src/images/Project_ZypArtGallery.jpeg" alt="Zyp Art Gallery Social Media Data Extraction - Image"/>
-                <h3>Zyp Art Gallery Social Media Data Extraction</h3>
-                <p class="subtext">A collection of scripts that can programmatically extract, transform, and load unaggregated Facebook & Instagram data to both CSV and Google Sheets files using Facebook Graph API and Google Sheets API.</p>
-                <hr/>
-                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/ZypArtGallery-SocialMediaDataExtraction">View Here</a></p>
-            </div>
-            <div class="project-card">
-                <img class="project-image" src="src/images/Project_CulturalSpacesVancouver.jpeg" alt="Cultural Spaces in Vancouver Dashboard - Image"/>
-                <h3>Cultural Spaces in Vancouver Dashboard</h3>
-                <p class="subtext">A dashboard showing the locations of Cultural Places in Vancouver along with visualizations that differentiate locations based on both comparison and size parameters.</p>
-                <hr/>
-                <p class="subtext"><a class="project-link" href="https://kunaljeshang.wordpress.com/douglas-college/csis-3860-data-visualization/?preview_id=789&preview_nonce=8d7b45596e&preview=true">View Here</a></p>
-            </div>
-            <!-- <div class="project-card"><h3>Project 8</h3></div> -->
-        </div>
-        <h4>To see more projects & work samples, please visit my <a class="project-link" href="https://github.com/kjeshang?tab=repositories">GitHub</a> & <a class="project-link" href="https://kunaljeshang.wordpress.com/">WordPress</a>!</h4>
-    </section>
-
-    <!-- CONTACT -->
-    <footer id="contact-me">
-        <h2>Contact Me</h2>
-        <script type="text/javascript" src="https://form.jotform.com/jsform/223584815347059"></script>
-    </footer>
-    
+            <h4>To see more projects & work samples, please visit my <a href="https://github.com/kjeshang?tab=repositories">GitHub</a> & <a href="https://kunaljeshang.wordpress.com/">WordPress</a>!</h4>
+        </section>
+        <footer>
+            <h2>Contact Me</h2>
+            <script type="text/javascript" src="https://form.jotform.com/jsform/223584815347059"></script>
+        </footer>
+    </main>
     <script src="src/app.js"></script>
 </body>
 </html>
