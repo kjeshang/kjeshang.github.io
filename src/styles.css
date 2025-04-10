@@ -67,6 +67,14 @@ li a:hover {
     cursor: pointer;
 }
 
+nav .hamburger {
+    display: none;
+}
+
+nav .hamburger:focus {
+    outline: 0;
+}
+
 /* Main Content --------------------------------- */
 
 main {
@@ -315,6 +323,59 @@ footer h2 {
     margin: 0;
     color: white;
     text-align: center;
+}
+
+/* Media Queries -------------------------------------- */
+
+@media only screen and (max-width: 1000px) {
+    nav img {
+        display: none;
+    }
+
+    nav .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    nav .hamburger:hover {
+        color: black;
+        background-color: whitesmoke;
+        cursor: pointer;
+    }
+
+    nav ul {
+        display: none;
+        background-color: #2b2c38;
+        margin: 0ppx;
+    }
+
+    nav {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column-reverse;
+        background-color: #2b2c38;
+        box-sizing: border-box;
+    }
+
+    nav ul.show {
+        display: block;
+    }
+
+    .projects .projects-list {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    .about-headshot {
+        display: none;
+    }
 }
 
 /* Old Styling ************************ */
