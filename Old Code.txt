@@ -1,0 +1,420 @@
+HTML -----------------------------------
+
+<!-- OLD WEBSITE ************* -->
+<!-- <body>
+    <section class="hero">
+        <nav>
+            <img class="logo" src="src/images/Logo_2-removebg.png" alt="Kunal Jeshang's Logo"></img>
+            <ul id="nav-list">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-me">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fa fa-bars"></i>
+            </button>
+        </nav>
+        <div class="hero-area">
+            <div class="hero-text">
+                <h1>Kunal Jeshang</h1>
+                <p>Data Analyst & Business Intelligence Developer</p>
+                <div class="button"><a href="#about-me">About Me</a></div>
+            </div>
+            <div class="socials">
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/kunaljeshang/">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
+                    </a>
+                </div>
+                <div class="social">
+                    <a href="https://github.com/kjeshang">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    </a>
+                </div>
+                <div class="social">
+                    <a href="https://kunaljeshang.wordpress.com/">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M2.597 7.81l4.911 13.454c-3.434-1.668-5.802-5.19-5.802-9.264 0-1.493.32-2.91.891-4.19zm16.352 3.67c0-1.272-.457-2.153-.849-2.839-.521-.849-1.011-1.566-1.011-2.415 0-.978.747-1.88 1.862-1.819-1.831-1.677-4.271-2.701-6.951-2.701-3.596 0-6.76 1.845-8.601 4.64.625.02 1.489.032 3.406-.118.555-.034.62.782.066.847 0 0-.558.065-1.178.098l3.749 11.15 2.253-6.756-1.604-4.394c-.555-.033-1.08-.098-1.08-.098-.555-.033-.49-.881.065-.848 2.212.17 3.271.171 5.455 0 .555-.033.621.783.066.848 0 0-.559.065-1.178.098l3.72 11.065 1.027-3.431c.444-1.423.783-2.446.783-3.327zm-6.768 1.42l-3.089 8.975c.922.271 1.898.419 2.908.419 1.199 0 2.349-.207 3.418-.583-.086-.139-3.181-8.657-3.237-8.811zm8.852-5.839c.224 1.651-.099 3.208-.713 4.746l-3.145 9.091c3.061-1.784 5.119-5.1 5.119-8.898 0-1.79-.457-3.473-1.261-4.939zm2.967 4.939c0 6.617-5.384 12-12 12s-12-5.383-12-12 5.383-12 12-12 12 5.383 12 12zm-.55 0c0-6.313-5.137-11.45-11.45-11.45s-11.45 5.137-11.45 11.45 5.137 11.45 11.45 11.45 11.45-5.137 11.45-11.45z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sub-section" id="about-me">
+        <div class="information">
+            <h2>About Me</h2>
+            <p>A Dynamic business professional with more than 3 years of work experience across various industries and roles, including 1.5+ years of experience in technical roles. In-depth knowledge of business statistics, software development methodologies, machine learning, natural language processing, and technical writing & documentation. Skilled in programming to perform data cleaning, data mining & wrangling, and data visualization for both structured & unstructured data. Exceptional leadership, customer service, and interpersonal communication skills, with a strong sense of cultural awareness and inclusivity. Passionate about solving complex business problems using data-driven solutions with critical thinking, creativity, and the application of technology.</p>
+        </div>
+        <div class="headshot-container">
+            <img class="headshot" src="src/images/1541430758243.jpeg" alt="Kunal Jeshang Headshot"/>
+        </div>
+    </section>
+
+    <section class="sub-section-alternative" id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img class="project-image" src="src/images/Project_MyFrenchLearning.jpg" alt="My French Learning Blog Website - Image"/>
+                <h3>My French Learning Blog Website</h3>
+                <p class="subtext">A web application that acts as a frontend to track my french language learning journey. The frontend retrieves the actual blog posts from a separate GitHub Repository that serves as a static-external backend, and then displays it.</p>
+                <hr />
+                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/my-french-learning-blog">View Here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="src/images/Project_MavenAnalytics.jpg" alt="Maven Analytics Data Projects Website - Image"/>
+                <h3>Maven Analytics Data Projects Website</h3>
+                <p class="subtext">A web application that acts as a frontend/portfolio to showcase the various projects completed <em><u>so far</u></em> in the Maven Analytics Data Playground Project.</p>
+                <hr />
+                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/kunal-maven-analytics-data-projects">View Here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="src/images/Project_MavenAnalytics.jpg" alt="Maven Analytics Data Playground - Image"/>
+                <h3>Maven Analytics Data Playground Project</h3>
+                <p class="subtext">A <em><u>growing</u></em> collection of completed projects regarding free datasets provided by Maven Analytics that involve data cleaning, analysis, and visualization.</p>
+                <hr />
+                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/KunalMavenAnalyticsDataPlayground">View Here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="src/images/Project_Nespresso.jpeg" alt="Nespresso Metropolis Training Matrix Summarization - Image"/>
+                <h3>Nespresso Metropolis Training Matrix Summarization</h3>
+                <p class="subtext">A project that extracts text from an expansive Quality, Health & Safety, and Sustainability Employee Memo, and then summarizes & evaluates the text using Machine Learning techniques.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/NespressoMetropolisTrainingMatrixSummarization">View Here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="src/images/Project_Nespresso.jpeg" alt="Nespresso Metropolis Cash Journal Reconciliation - Image"/>
+                <h3>Nespresso Metropolis Cash Journal Reconciliation</h3>
+                <p class="subtext">A web application designed to assist managers to quickly perform opening & closing cash journal reconciliations for both credit/debit and cash transactions.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/NespressoMetropolisCashJournalReconciliation.git">View Here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="src/images/Project_Nespresso.jpeg" alt="Nespresso Metropolis Coffee Flavour Reference Guide - Image"/>
+                <h3>Nespresso Metropolis Coffee Flavour Reference Guide</h3>
+                <p class="subtext">Programmatically generated reference guides that were designed to help sales floor employees convey high level knowledge to customers with speed & detail.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/NespressoMetropolisCoffeeFlavourReferenceGuide">View Here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="src/images/Project_StaplesCanada.png" alt="Staples Marine Way Associate Companion Mobile App - Image"/>
+                <h3>Staples Marine Way Associate Companion Mobile App</h3>
+                <p class="subtext">An application designed to assist associates to better understand product lineup, as well as to serve as a referential tool to help connect, share, and partner with customers to meet their requirements.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp">View Here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="src/images/Project_Nespresso.jpeg" alt="Nespresso Metropolis Customer Review Analysis - Image"/>
+                <h3>Nespresso Metropolis Customer Review Analysis</h3>
+                <p class="subtext">An exploratory sentiment analysis of customer Google Reviews,  received between 2019 to 2022, to assess service quality & customer perception to help management pinpoint areas for improvement.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/NespressoMetropolisCustomerReviewAnalysis">View Here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="src/images/Project_Nespresso.jpeg" alt="Nespresso Metropolis Training App - Image"/>
+                <h3>Nespresso Metropolis Training App</h3>
+                <p class="subtext">A Machine Learning & Natural Language Processing Application designed to both educate about coffee flavour profiles and make recommendations.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/NespressoMetropolisTrainingApp">View Here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="src/images/Project_ZypArtGallery.jpeg" alt="Zyp Art Gallery Social Media Dashboard - Image"/>
+                <h3>Zyp Art Gallery Social Media Dashboard Application</h3>
+                <p class="subtext">A free and accessible web application designed to serve as a custom dashboard tool to help visualize Facebook & Instagram data and derive social media insights.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/ZypArtGallerySocialMediaDashboard">View Here</a></p>
+            </div>
+            
+            <div class="project-card">
+                <img class="project-image" src="src/images/Project_ZypArtGallery.jpeg" alt="Zyp Art Gallery Volunteer Connector Web Scraping - Image"/>
+                <h3>Zyp Art Gallery Volunteer Connector Web Scraping</h3>
+                <p class="subtext">A custom web scraper designed to retreive volunteer interest data per month, and both open and completed volunteer application data on a lifetime basis from the Volunteer Connector portal.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/ZypArtGallery-VolunteerConnectorWebScraping">View Here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="src/images/Project_CEITDouglasCollege.jpeg" alt="CEIT SHS 2021 Statistics Exploratory Data Analysis - Image"/>
+                <h3>CEIT SHS 2021 Statistics Exploratory Data Analysis</h3>
+                <p class="subtext">An exploratory data analysis of the Students Helping Students 2021 statistics data pertaining to educational technology issues of Douglas College students.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/SHS2021_Statistics-DataAnalysis-Winter2022Co-op">View Here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="src/images/Project_ZypArtGallery.jpeg" alt="Zyp Art Gallery Social Media Data Extraction - Image"/>
+                <h3>Zyp Art Gallery Social Media Data Extraction</h3>
+                <p class="subtext">A collection of scripts that can programmatically extract, transform, and load unaggregated Facebook & Instagram data to both CSV and Google Sheets files using Facebook Graph API and Google Sheets API.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/kjeshang/ZypArtGallery-SocialMediaDataExtraction">View Here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="src/images/Project_CulturalSpacesVancouver.jpeg" alt="Cultural Spaces in Vancouver Dashboard - Image"/>
+                <h3>Cultural Spaces in Vancouver Dashboard</h3>
+                <p class="subtext">A dashboard showing the locations of Cultural Places in Vancouver along with visualizations that differentiate locations based on both comparison and size parameters.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://kunaljeshang.wordpress.com/douglas-college/csis-3860-data-visualization/?preview_id=789&preview_nonce=8d7b45596e&preview=true">View Here</a></p>
+            </div>
+        </div>
+        <h4>To see more projects & work samples, please visit my <a class="project-link" href="https://github.com/kjeshang?tab=repositories">GitHub</a> & <a class="project-link" href="https://kunaljeshang.wordpress.com/">WordPress</a>!</h4>
+    </section>
+
+    <footer id="contact-me">
+        <h2>Contact Me</h2>
+        <script type="text/javascript" src="https://form.jotform.com/jsform/223584815347059"></script>
+    </footer>
+    
+    <script src="src/app.js"></script>
+</body> -->
+
+CSS Code -----------------------------------------
+
+/* Old Styling ************************ */
+/* body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin: 0;
+}
+
+section {
+    background-color: white;
+}
+
+.hero {
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li {
+    text-decoration: none;
+}
+
+li a:hover {
+    color: black;
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+h3 {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 40px;
+    text-align: center;
+    background-color: coral;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #ef744b;
+}
+
+.button:active {
+    background-color: #A9A9A9;
+    color: #808080;
+}
+
+.socials {
+    padding-bottom: 200px;
+    justify-content: left;
+}
+
+.logo {
+    height: 100px;
+    margin: 30px;
+}
+
+.social {
+    margin: 20px;
+}
+
+.social:hover {
+    opacity: 65%;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-card {
+    width: 300px;
+    height: 520px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+}
+
+h4 {
+    margin-top: 5%;
+}
+
+.project-container {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 20% 20% 20% 20%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .headshot {
+        display: none;
+    }
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 125px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #ef744b;
+}
+
+.project-link:hover {
+    text-decoration: underline #ef744b;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger:focus {
+    outline: 0;
+}
+
+.education-container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        background-color: #2b2c38;
+        margin: 0ppx;
+    }
+
+    ul.show {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column-reverse;
+        background-color: #2b2c38;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
+form {
+    margin: 0 5px 0 0;
+} */
