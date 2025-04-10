@@ -247,8 +247,6 @@ section {
 /* Projects List ------------------------------------------ */
 
 .projects .projects-list {
-    padding: 15px;
-    /* Grid Attributes */
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(4, 1fr);
