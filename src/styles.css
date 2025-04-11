@@ -7,6 +7,27 @@ body {
     background-color: #1c1d25;
 }
 
+/* Main Content --------------------------------- */
+
+main {
+    margin: 0.25em;
+    padding: 0.25em;
+    /* Flex Atrributes */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: stretch;
+    align-content: stretch;
+    align-items: stretch;
+    box-sizing: border-box;
+    row-gap: 0;
+    column-gap: 0;
+}
+
+section {
+    background-color: white;
+}
+
 /* Navigation ------------------------------- */
 
 nav {
@@ -75,27 +96,6 @@ nav .hamburger:focus {
     outline: 0;
 }
 
-/* Main Content --------------------------------- */
-
-main {
-    margin: 0.25em;
-    padding: 0.25em;
-    /* Flex Atrributes */
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: stretch;
-    align-content: stretch;
-    align-items: stretch;
-    box-sizing: border-box;
-    row-gap: 0;
-    column-gap: 0;
-}
-
-section {
-    background-color: white;
-}
-
 /* Hero Section ------------------------------------ */
 
 .hero {
@@ -116,6 +116,7 @@ section {
 
 .hero-info {
     word-wrap: break-word;
+    padding: 20px;
     /* Flex Attributes */
     display: flex;
     flex-wrap: wrap;
@@ -129,7 +130,8 @@ section {
 
 .hero-title h1 {
     margin: 0;
-    font-size: 70px;
+    /* font-size: 60px; */
+    font-size: clamp(2.5rem, 8vw, 4rem);
     /* Flex Attributes */
     flex-grow: 1;
     flex-shrink: 1;
@@ -139,7 +141,8 @@ section {
 .hero-title p {
     margin: 0;
     font-weight: 300;
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: clamp(1rem, 5vw, 2rem);
     /* Flex Attributes */
     flex-grow: 1;
     flex-shrink: 1;
@@ -151,7 +154,8 @@ section {
     border-radius: 40px;
     text-align: center;
     background-color: coral;
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: clamp(1rem, 5vw, 2rem);
     font-weight: 300;
     padding-left: 25px;
     padding-right: 25px;
@@ -177,6 +181,12 @@ section {
     column-gap: 0;
 }
 
+.hero-socials .social {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
 .hero-socials .social:hover {
     opacity: 65%;
 }
@@ -197,12 +207,14 @@ section {
 }
 
 .about-info h2 {
-    font-size: 50px;
+    /* font-size: 50px; */
+    font-size: clamp(2rem, 8vw, 3rem);
     margin: 0;
 }
 
 .about-info p {
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: clamp(1rem, 5vw, 1.5rem);
     font-weight: 300;
     word-wrap: break-word;
 }
@@ -221,6 +233,7 @@ section {
 
 .projects {
     padding: 25px;
+    height: fit-content;
     /* Flex Attributes */
     display: flex;
     flex-wrap: wrap;
@@ -234,7 +247,8 @@ section {
 }
 
 .projects h2 {
-    font-size: 50px;
+    /* font-size: 50px; */
+    font-size: clamp(2rem, 8vw, 3rem);
     margin: 0;
     text-align: center;
 }
@@ -261,6 +275,7 @@ section {
     grid-template-rows: auto;
     column-gap: 30px;
     row-gap: 10px;
+    grid-auto-flow: row;
 }
 
 .projects-list .projects-card {
@@ -288,11 +303,13 @@ section {
 }
 
 .projects-card h3 { 
+    /* font-size: clamp(1rem, 4vw, 1.2rem); */
     text-align: center;
 }
 
 .projects-card p {
     font-size: 15px;
+    /* font-size: clamp(0.8rem, 3vw, 1rem); */
     font-weight: 300;
 }
 
@@ -319,7 +336,8 @@ footer {
 }
 
 footer h2 {
-    font-size: 50px;
+    /* font-size: 50px; */
+    font-size: clamp(2rem, 8vw, 3rem);
     margin: 0;
     color: white;
     text-align: center;
@@ -343,8 +361,8 @@ footer h2 {
     }
 
     nav .hamburger:hover {
-        color: black;
-        background-color: whitesmoke;
+        /* color: black; */
+        /* background-color: whitesmoke; */
         cursor: pointer;
     }
 
@@ -371,6 +389,12 @@ footer h2 {
         flex-wrap: wrap;
         box-sizing: border-box;
         padding: 20px;
+    }
+
+    .projects-card {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
     }
 
     .about-headshot {
