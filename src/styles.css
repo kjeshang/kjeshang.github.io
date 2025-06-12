@@ -305,6 +305,10 @@ nav .hamburger:focus {
     width: 150px;
     border: 2px solid black;
     border-radius: 125px;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 }
 
 .projects-card h3 { 
