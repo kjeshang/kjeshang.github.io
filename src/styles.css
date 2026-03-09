@@ -154,6 +154,16 @@ nav .hamburger:focus {
     flex-basis: auto;
 }
 
+.hero-quote {
+    font-style: italic;
+    margin: 0;
+    font-weight: 100;
+    font-size: clamp(1rem, 4vw, 1.4rem);
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
 .hero-info .button {
     width: fit-content;
     border-radius: 40px;
