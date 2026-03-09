@@ -337,6 +337,29 @@ nav .hamburger:focus {
     text-decoration: underline;
 }
 
+/* Employment History -------------------------- */
+
+.employment {
+    padding: 25px;
+    /* Flex Attributes */
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: stretch;
+    align-content: stretch;
+    align-items: stretch;
+    box-sizing: border-box;
+    column-gap: 1em;
+}
+
+.employment h2 {
+    /* font-size: 50px; */
+    font-size: clamp(2rem, 8vw, 3rem);
+    margin: 0;
+}
+
+/* Reference: https://www.progressiverobot.com/2026/02/11/build-resume-section-with-css/ */
+
 /* Contact Footer ----------------------------------- */
 
 footer {
