@@ -425,6 +425,10 @@ nav .hamburger:focus {
 
 footer {
     padding: 25px;
+    height: max-content;
+}
+
+.contact-container {
     background-color: #2c3345;
 }
 
