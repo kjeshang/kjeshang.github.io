@@ -300,12 +300,17 @@ nav .hamburger:focus {
 }
 
 .work-card-info {
+    margin-right: auto;
     display: flex;
     flex-direction: column;
 }
 
 .work-card-info .heading {
-    font-size: clamp(1rem, 2vw, 1.25rem);
+    font-size: clamp(1rem, 2vw, 1.1rem);
+}
+
+.work-description {
+    display: block;
 }
 
 .arrow-icon {
@@ -315,6 +320,17 @@ nav .hamburger:focus {
 
 .arrow-icon:hover {
     opacity: 65%;
+}
+
+.website-link {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.website-link:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+    color: black;
 }
 
 /* Projects Section ------------------------------------ */
@@ -478,6 +494,10 @@ footer h2 {
 
     nav ul.show {
         display: block;
+    }
+
+    .work-description {
+        display: none;
     }
 
     .projects .projects-list {
