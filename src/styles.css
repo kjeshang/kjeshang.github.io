@@ -286,6 +286,7 @@ nav .hamburger:focus {
     justify-content: space-between;
     column-gap: 5em;
     box-sizing: border-box;
+    row-gap: 0;
 }
 
 .work-card-image img {
@@ -301,13 +302,21 @@ nav .hamburger:focus {
 .work-card-info {
     text-align: left;
     margin-right: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .work-card-info .heading {
-    font-size: 1.2em;
+    font-size: clamp(1rem, 2vw, 1.25rem);
 }
 
+.arrow-icon {
+    padding-top: 20px;
+}
 
+.arrow-icon:hover {
+    opacity: 65%;
+}
 
 /* Projects Section ------------------------------------ */
 
