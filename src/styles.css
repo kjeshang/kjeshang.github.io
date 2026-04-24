@@ -260,6 +260,15 @@ nav .hamburger:focus {
     margin: 0;
 }
 
+.work-info h4 a {
+    text-decoration: none;
+    color: #ef744b;
+}
+
+.work-info h4 a:hover {
+    text-decoration: underline;
+}
+
 .work-list {
     margin-top: 2em;
     display: flex;
