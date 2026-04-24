@@ -244,6 +244,71 @@ nav .hamburger:focus {
     width: 300px;    
 }
 
+/* Work History Section ------------------------------------ */
+.work {
+    background-color: #1c1d25;
+    color: white;
+}
+
+.work-info {
+    padding: 25px;
+}
+
+.work-info h2 {
+    /* font-size: 50px; */
+    font-size: clamp(2rem, 8vw, 3rem);
+    margin: 0;
+}
+
+.work-list {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+    box-sizing: border-box;
+}
+
+.work-card {
+    margin: 0;
+    padding: 10px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.word-card-container {
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: stretch;
+    justify-content: space-between;
+    column-gap: 5em;
+    box-sizing: border-box;
+}
+
+.work-card-image img {
+    width: 90px;
+    border: 2px solid black;
+    border-radius: 125px;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.work-card-info {
+    text-align: left;
+    margin-right: auto;
+}
+
+.work-card-info .heading {
+    font-size: 1.2em;
+}
+
+
+
 /* Projects Section ------------------------------------ */
 
 .projects {
