@@ -300,8 +300,6 @@ nav .hamburger:focus {
 }
 
 .work-card-info {
-    text-align: left;
-    margin-right: auto;
     display: flex;
     flex-direction: column;
 }
@@ -312,6 +310,7 @@ nav .hamburger:focus {
 
 .arrow-icon {
     padding-top: 20px;
+    margin-left: auto;
 }
 
 .arrow-icon:hover {
