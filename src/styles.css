@@ -310,7 +310,7 @@ nav .hamburger:focus {
 
 .work-card-image img {
     width: 90px;
-    border: 2px solid black;
+    border: 2px solid whitesmoke;
     border-radius: 125px;
     max-width: 100%;
     height: auto;
