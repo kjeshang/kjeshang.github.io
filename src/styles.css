@@ -209,7 +209,10 @@ nav .hamburger:focus {
 /* About Section ------------------------------------ */
 
 .about {
-    padding: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
     /* Flex Attributes */
     display: flex;
     flex-wrap: nowrap;
@@ -261,7 +264,10 @@ nav .hamburger:focus {
 }
 
 .work-info {
-    padding: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
 }
 
 .work-info h2 {
@@ -351,7 +357,11 @@ nav .hamburger:focus {
 /* Projects Section ------------------------------------ */
 
 .projects {
-    padding: 25px;
+    /* padding: 25px; */
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
     height: fit-content;
     /* Flex Attributes */
     display: flex;
