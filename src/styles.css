@@ -328,13 +328,9 @@ nav .hamburger:focus {
     font-size: clamp(1rem, 2vw, 1.1rem);
 }
 
-.work-description {
-    display: block;
-}
-
 .arrow-icon {
-    padding-top: 20px;
-    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .arrow-icon:hover {
