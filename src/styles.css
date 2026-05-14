@@ -334,6 +334,28 @@ nav .hamburger:focus {
     font-size: clamp(1rem, 2vw, 1.1rem);
 }
 
+.work-description {
+    margin-top: 20px;
+}
+
+.work-description p {
+    margin: 0;
+    padding: 0;
+}
+
+.work-description .tech-stack {
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.work-description ul {
+    margin: 0;
+    padding-top: 10px;
+}
+
 .arrow-icon {
     display: flex;
     justify-content: flex-end;
