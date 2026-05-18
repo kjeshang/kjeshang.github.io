@@ -264,8 +264,10 @@ nav .hamburger:focus {
 }
 
 .work-info {
-    padding-left: 25px;
-    padding-right: 25px;
+    /* padding-left: 25px; */
+    /* padding-right: 25px; */
+    padding-left: 15rem;
+    padding-right: 15rem;
     padding-top: 3.5em;
     padding-bottom: 3.5em;
 }
@@ -274,6 +276,11 @@ nav .hamburger:focus {
     /* font-size: 50px; */
     font-size: clamp(2rem, 8vw, 3rem);
     margin: 0;
+    text-align: center;
+}
+
+.work-info h4 {
+    text-align: center;
 }
 
 .work-info h4 a {
@@ -541,6 +548,15 @@ footer h2 {
 
     nav ul.show {
         display: block;
+    }
+
+    .work-info {
+        /* padding-left: 25px; */
+        /* padding-right: 25px; */
+        padding-left: 25px;
+        padding-right: 25px;
+        /* padding-top: 3.5em; */
+        /* padding-bottom: 3.5em; */
     }
 
     .work-description {
